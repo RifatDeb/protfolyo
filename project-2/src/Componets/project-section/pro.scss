@@ -1,0 +1,158 @@
+.project-body{
+    padding: 68px 0;
+
+
+    h2{
+        padding-bottom: 68px;
+        
+    }
+
+
+    .project-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
+    
+
+        button{
+            margin: 0px 58px;
+        }
+    }
+
+
+
+
+    .left-part{
+        display: flex;
+        flex-direction: column;
+     
+
+
+        .left-img{
+            width: 157px;
+            right: 157px;
+            margin: 45px 0px;
+
+        }
+    }
+
+
+
+
+    .right-part{
+        text-align: center;
+        align-items: center;
+
+
+        .card-body{
+            width: 465px;
+            height: 543px;
+            background: linear-gradient( 
+                to right,
+                #242222,
+                #232732
+            );
+
+
+
+            .right-imgs{
+                width: 406px;
+                height: 304px;
+            }
+            h3{
+                padding: 1rem 0rem;
+                font-weight: 600;
+                font-size: 28px;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 300;
+            }
+            .logo{
+                margin: 1rem 0rem;
+              
+
+                .git-logo{
+                    width: 52px;
+                    height: 50px;
+                    background-color: #232732;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 667px) {
+   .left-part{
+        display: flex ;
+        flex-direction: row !important;
+     
+  text-align: center;
+  align-items: center;
+   }
+
+
+.left-img{
+    width: 130px !important;
+    right: 130px !important;
+    margin: 12px !important;
+
+}
+}
+
+@media screen and (max-width: 767px) {
+    .left-part{
+         display: flex ;
+         flex-direction: row !important;
+      
+   text-align: center;
+   align-items: center;
+    }
+
+
+    .left-img{
+        width: 135px !important;
+        right: 135px !important;
+        margin: 16px !important;
+    
+    }
+
+} 
+
+
+@media screen and (max-width: 567px) {
+    .left-part{
+         display: flex ;
+         flex-direction: row !important;
+      
+   text-align: center;
+   align-items: center;
+    }
+
+
+    .left-img{
+        width: 125px !important;
+        right: 125px !important;
+        margin: 10px !important;
+    
+    }
+    .card-body{
+        width: 224px;
+        height: 261px ;
+
+    }
+
+    .project-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px !important;
+    
+
+        button{
+            margin: 15px !important;
+        }
+    }
+  
+} 

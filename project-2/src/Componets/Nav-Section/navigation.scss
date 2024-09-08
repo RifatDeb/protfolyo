@@ -1,0 +1,46 @@
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.link{
+    width: 148px;
+    height: 60px;
+    background-color: #24272C;
+    text-align: center;
+    align-items: center;
+    padding: 20px ;
+    border-radius: 22px;
+    
+
+}
+
+.link:hover,:focus{
+    background-color: #4a5455;
+}
+
+ .hembergar{
+// margin-top: 62px;
+background-color:#7733FF;
+font-size: 1rem;
+text-align: center;
+align-items: center;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+
+}
+
+
+
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

@@ -1,0 +1,53 @@
+.hero-section{
+    text-align: center;
+    align-items: center;
+
+
+h5{
+    font-size: 38px;
+    font-weight: 400;
+}
+h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+h4{
+    font-size: 38px;
+    font-weight: 500;
+
+    samp{
+        color: #D32D20 !important;
+    }
+
+}
+
+p{
+    font-size: 21;
+    font-weight: 300;
+    text-align: center;
+}
+.hero-button{
+     margin: 38px 32px;
+}
+
+
+
+@media screen and (max-width: 667px) {
+   h1{
+font-size: 55px;
+   }
+    h4, h5{
+        font-size: 34px;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+}

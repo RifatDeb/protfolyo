@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600&display=swap');
+
+
+
+a,
+h4{
+font-size: 22px;
+font-weight:500;
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffff !important;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #24272C;
+}
+
+.btns{
+
+border: none;
+font-size: 22px;
+outline: none;
+cursor: pointer;
+position: relative;
+z-index: 0;
+color: #fff;
+padding: 15px 40px;
+border-radius: 12px;
+}
+
+.btns::after{
+  content: '';
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left:0 ;
+  top: 0;
+  border-radius: 10px;
+}
+.btns::before{
+  content: '';
+  background: linear-gradient(
+    45deg,
+    #ff0000,#ff7300,#FFFB00,#48FF00,
+    #00FFD5,#002BFF,#FF00C8,#FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+transition:opacity .3s ease-in-out;
+background-size: 600%;
+border-radius: 10px;
+opacity: 1;
+
+}
+
+@keyframes glowing{
+  0%{ background-color: 0 0;}
+  50%{ background-color: 400% 0;}
+  100%{ background-color: 0 0;}
+}
+
+.btns:hover::after{
+background: transparent;
+}
+
+
+.btns:hover::before{
+  opacity: 1;
+}
+.btns:active::after{
+  background: transparent;
+}
+.btns:active{
+  color: #333;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 667px) {
+ 
+h2{
+  text-align: center;
+  margin: 2rem;
+  font-size: 52px;
+}
+
+  
+  
+  }
+
